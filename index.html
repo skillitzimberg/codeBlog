@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title>Brain Dump</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Brain Dump</h1>
+        <h3>A web development newbie becoming not a newbie.</h3>
+      </header>
+
+      <article class="post">
+
+        <h1>The Blog Begins</h1>
+        <h3>August 21, 2018</h3>
+
+        <p>I'm as shy of words as I am of cameras. They are both unflattering and it's glaringly obvious how pained I am to seem at ease, cool, smart, or even just pretty alright. Instead you can see the crazy swirling around behind shifty eyes. At least that's what I see, so yeah, I keep away from the pointy side of the lens and a wagging tongue.</p>
+
+        <p>And here I go starting a blog. Why? Because I'm finally taking action and choosing a path, a path I've considered before in less concrete ways, and could never get much traction in. I'm going to do my damnedest to become a professional web developer.</p>
+
+        <p>The decision has been forced due to issues that make physical labor no longer sustainable for me. I'll be in pain for the rest of my life regardless of my profession, but there's no reason for me to aggravate the problem with the work I do. I need to save my physical efforts for healthy things like working out and training in martial arts - things that make me feel good despite the pain.</p>
+
+        <p>So where am I on this path? To me it seems like maybe a mile in at this point. And honestly I've covered this mile a couple of times over the years, but never quite the same way and the field has changed a lot over the years I've watched it. I'm relearning HTML/CSS right now. I've had some experience with JavaScript and even less with Ruby before, but I'm concentrating on the fundamentals and trying to get that really fluid.</p>
+
+        <p>I'm using the <a href="https://www.learnhowtoprogram.com/intro-to-programming-online">Epicodus curriculum</a> and Colt Steele's "The Web Developer Bootcamp" course on <a href="https://www.udemy.com/the-web-developer-bootcamp">Udemy</a>. I blew through the first two weeks of the Epicodus material in about ten hours. Then I hit the assignment which is meant to teach Git branching and merging, as well as reinforce the basic HTML/CSS the course has covered to that point. The assignment was to create a multi-page website with at least two different styles/themes (hello, branching) for a "client" who operates a resort. When the client chose one of the versions, we're supposed to merge the chosen branch into the master.</p>
+
+        <p>I was kind of stumped by the creative side of the assignment. I know enough to be a danger to myself and a website full of barely styled lists and random photos scattered throughout just didn't appeal to me. I wanted to make something at least marginally slicker than that. The problem is that besides needing to refresh on the material I'd learned previously, I have a kind of creative block on web design. There are so many ways a site can be layed out! What do I choose? How does my choice affect how I structure the HTML? How do I write HTML that CSS can style any way I want without editing it to work for the new styles? And how do I choose colors that aren't drab or garish, that have some kind of relationship to the project itself? Where do I get all these photos without spending hours just copying and pasting urls and file names? Aaaagggghhh!</p>
+
+        <p>OK. Calm down, kid. How to tackle this reasonably? Through Mr. Steele's bootcamp I knew that Bootstrap Grid was a thing and made lay out way way more simple than it was when I first encountered this stuff in 2000. Then I found out that CSS has a native grid (presumably this is what Bootstrap exploits and embellishes, but I don't know that for a fact yet). I decided to first learn layout by building a photo gallery project using nothing but the old CSS float methods; then I recreated the same thing using CSS grids; next I'll tackle Bootstrap grid. But I wound up getting antsy about the resort project, so I ended up building it using vanilla CSS. Is that a thing? Sometimes it's better to speculate - why let Google ruin everything with "facts?" Anyway, here we are almost two weeks later and I've nearly got the basic resort website done. From there I can start branching and seeing what I can do to make variations with what I've learned so far.</p>
+
+        <p>I feel a bit ashamed that it's taken me this long to get this far with the resort project, but I did make some deep detours, learned a ton, and made it relevant to the assignment at a level way above what the assignment was really looking for in terms of HTML/CSS. I've a got a better toolbox and a better understanding of how to use those tools. There is still a lot of refinement to be done, of course, but I've definitely done something.</p>
+
+        <p>From what I've been reading about the process of becoming a web developer, I'm going to have to bare myself a bit and push the things I've done so far to Github, even though they're silly, simple, and nothing more than me futzing around trying to see how some things worked (or didn't). I guess I'll lay it all out there and see what happens. At least it's the truth and might give someone a laugh.</p>
+      </article>
+
+      <article class="post">
+
+        <h1>Clunk, Clank, Thud</h1>
+        <h3>August 22, 2018</h3>
+
+        <p>Today I finished the first version of the resort website project. Next up is branching it and working on a new version. I did make a gh-pages branch, but I couldn't get Git to push it via the terminal. I ended up creating a branch on Github. The whole push thing has proven to be fuzzy for me. I can't tell yet where it's getting the user name or why it seems to change on me. Sometimes it's "sb" which I set for one of the early projects. For this blog it seems to be "-u" which I need to look up. I'll hazard a guess that it means something along the lines of "get the current username." I'm going to go back to the beginning of the Epicodus course and review. I'm having the same trouble branching and getting this blog on gh-pages. I will solve this.</p>
+      </article>
+
+      <article class="post">
+
+        <h1>Git It!</h1>
+        <h3>August 23, 2018</h3>
+
+        <p>I'm still working on making sure that I understand Git and the process for creating a local repository, a remote repository, branching, merging, and gh-pages. I failed at this with my original blog repository and it all got too confused, so I have deleted that repository on Github and started a new local repository called codeBlog. It's exactly the same; only the name has changed.</p>
+
+        <p>So here are the steps as I understand them (I'm using the terminal here, just in case you don't already know that, and I'm only showing the basic form of the commands for brevity and because this is really for my own understanding at this point.):
+          <ol>
+            <li><strong>[$ mkdir and $ touch]</strong>: create a local directory and any files you want in it;</li>
+            <li><strong>[$ cd]</strong>: navigate into the directory;</li>
+            <li><strong>[$ git init]</strong>: initialize the repository;</li>
+            <li><strong>[$ git status]</strong>: optional command to verify that Git is tracking the repository and check on the state of the repository;</li>
+            <li><strong>[$ git add]</strong>: stage one or more files or even the entire repository for committing;</li>
+            <li><strong>[$ git status]</strong>: verify what has been staged for committing;</li>
+            <li><strong>[$ git commit]</strong>: commit the current state of the repository. The message appended to this commit needs to be in present tense and complete the sentence, "This commit will . . .";</li>
+
+            <li><strong>[$ git log]</strong>: to see the Git history and verify that this commit went as planned;</li>
+            <p>Go to Github and create a remote repository with the exact same name as the local repository. Use the URL Github gives you in the next step.</p>
+            <li><strong>[$ git remote add (nickname or initals) (Github URL to the remote repository)]</strong>: direct Git to the Github repository to which to push the local repository;</li>
+            <li><strong>[$ git remote -v]: </strong>: verify that this worked as planned;</li>
+            <li><strong>[$ git push (nickname or initals) master]: </strong>: push the local repository to the remote (Github) repository;</li>
+            <li><strong>[$ git branch (branch name)]: </strong>: create a branch repository from the master repository;</li>
+            <li><strong>[$ git checkout (branch name)]: </strong>: "navigate" to the branch - any changes will be made to the branch leaving the master as it is;</li>
+            <li><strong>[$ git push (nickname or initals) (branch name)]: </strong>: push this branch of the local repository to its "twin" remote (Github) repository;</li>
+
+          </ol>
+        </p>
+
+        <p> This is as far as I have gotten, and it's a really good thing I listed out the step like this. To do this I combed back through the Epicodus curriculum to make sure I ahd the steps and commands right. I realized in the process that past a certain point I was following steps that were meant for dealing with a repository that has been cloned from Github. The basics are the same, but "origin" is used instead of a nickname or initals because "origin" is the nickname Git automatically gives to cloned repositories.</p>
+
+        <p>I'll follow these steps for codeBlog and see how it pans out . . .</p>
+      </article>
+
+
+    </main>
+  </body>
+</html>
