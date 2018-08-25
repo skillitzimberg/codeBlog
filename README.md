@@ -10,7 +10,7 @@ Here I am simply trying to keep myself accountable and on track by writing about
 
 ## Setup/Installation Requirements
 
-Clone this project from GitHub and open index.html in your web browser.
+You can view the blog [here](https://skillitzimberg.github.io/codeBlog/ "codeBlog").
 
 ## Known Bugs
 
