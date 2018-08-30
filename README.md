@@ -6,12 +6,15 @@
 
 ## Description
 
-Here I am simply trying to keep myself accountable and on track by writing about my steps in studying web development.
+I am simply trying to keep myself accountable and on track by writing about my steps in studying web development.
 
 ## Setup/Installation Requirements
 
+<<<<<<< HEAD
 You can view the blog [here](https://skillitzimberg.github.io/codeBlog/ "codeBlog").
 
+=======
+>>>>>>> gh-pages
 ## Known Bugs
 
 None.
@@ -22,9 +25,6 @@ Scott Bergler: commandinghands@gmail.com
 
 ## Technologies Used
 
-HTML
-
-CSS
 
 ### License
 
