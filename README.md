@@ -10,11 +10,8 @@ I am simply trying to keep myself accountable and on track by writing about my s
 
 ## Setup/Installation Requirements
 
-<<<<<<< HEAD
 You can view the blog [here](https://skillitzimberg.github.io/codeBlog/ "codeBlog").
 
-=======
->>>>>>> gh-pages
 ## Known Bugs
 
 None.
