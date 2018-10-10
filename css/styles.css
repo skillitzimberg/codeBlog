@@ -1,0 +1,17 @@
+
+.main {
+  width: 80%;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+.post {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+}
+
+.content {
+  background-color: grey;
+  padding: 5px;
+}
