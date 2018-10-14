@@ -1,0 +1,62 @@
+
+main {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.container {
+  width: 80%;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+.post {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+}
+
+.content {
+  background-color: grey;
+  padding: 5px;
+}
+
+.about {
+  font-style: italic;
+  width: 40%;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.objective {
+
+}
+
+.header h1 {
+  font-style: italic;
+}
+
+.work {
+  color: blue;
+}
+
+.work li {
+  color: green;
+}
+
+.color {
+  color:yellow;
+}
+
+p.color {
+  color:grey;
+}
+
+.work span {
+  font-weight: bold;
+}
