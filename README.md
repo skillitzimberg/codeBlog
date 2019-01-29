@@ -16,7 +16,7 @@ Scott Bergler
 ## Description
 I am simply trying to keep myself accountable and on track by writing about my steps in studying web development.
 
-## Setup and Installation Requirements
+## Setup and Installation
 You can view the blog [here](https://skillitzimberg.github.io/codeBlog/ "codeBlog").
 
 ## Known Bugs
