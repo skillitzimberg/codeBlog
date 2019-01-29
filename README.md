@@ -6,7 +6,7 @@ Scott Bergler
 
 ## Table of contents
 **[Description](#description)**<br>
-**[Setup & Installation](#setup-&-installation)**<br>
+**[Setup & Installation](#setup-and-installation)**<br>
 **[Known Bugs](#known-bugs)**<br>
 **[Support](#support)**<br>
 **[Technologies Used](#technologies-used)**<br>
@@ -16,7 +16,7 @@ Scott Bergler
 ## Description
 I am simply trying to keep myself accountable and on track by writing about my steps in studying web development.
 
-## Setup & Installation Requirements
+## Setup and Installation Requirements
 You can view the blog [here](https://skillitzimberg.github.io/codeBlog/ "codeBlog").
 
 ## Known Bugs
