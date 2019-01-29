@@ -6,10 +6,9 @@ Scott Bergler
 
 ## Table of contents
 **[Description](#description)**<br>
-**[Resources](#resources)**<br>
-**[Setup & Installation](#setup-and-installation)**<br>
+**[Setup & Installation](#setup-&-installation)**<br>
 **[Known Bugs](#known-bugs)**<br>
-**[Support](#support-and-contact-details)**<br>
+**[Support](#support)**<br>
 **[Technologies Used](#technologies-used)**<br>
 **[License](#license)**<br>
 **[Copyright](#copyright)**<br>
