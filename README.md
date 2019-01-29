@@ -1,30 +1,35 @@
 # Brain Dump Blog
+This is a blog tracking my experiences while becoming a web developer. I'm currently planning a rebuild with Angular, making it both part of a portfolio and a web application that allows me to post journal entries through a live version.
 
-#### This is a blog tracking my learning while becoming a web developer.
+### Author
+Scott Bergler  
 
-#### By **Scott Bergler**
+## Table of contents
+**[Description](#description)**<br>
+**[Resources](#resources)**<br>
+**[Setup & Installation](#setup-and-installation)**<br>
+**[Known Bugs](#known-bugs)**<br>
+**[Support](#support-and-contact-details)**<br>
+**[Technologies Used](#technologies-used)**<br>
+**[License](#license)**<br>
+**[Copyright](#copyright)**<br>
 
 ## Description
-
 I am simply trying to keep myself accountable and on track by writing about my steps in studying web development.
 
-## Setup/Installation Requirements
-
+## Setup & Installation Requirements
 You can view the blog [here](https://skillitzimberg.github.io/codeBlog/ "codeBlog").
 
 ## Known Bugs
 
-None.
-
-## Support and contact details
-
+## Support
 Scott Bergler: commandinghands@gmail.com
 
 ## Technologies Used
+HTML & CSS
 
-
-### License
-
+## License
 This software is licensed under the MIT license.
 
+## Copyright
 Copyright (c) 2018 Scott Bergler
