@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 function Post(props){
   return (
-    <article class="post">
+    <article className="post">
       <h1>{ props.title }</h1>
       <h3>{ props.date }</h3>
-      <div>{ props.content }</div>
+      <div>{ props.article }</div>
     </article>
   );
 }
@@ -14,7 +14,7 @@ function Post(props){
 Post.propTypes = {
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired
+  article: PropTypes.string.isRequired
 };
 
 export default Post;

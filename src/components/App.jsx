@@ -1,15 +1,18 @@
 import React from "react";
-import Header from "./Header";
-import Articles from "./Articles";
+import { Switch, Route } from "react-router-dom";
+import Articles from "./Blog/Articles";
+import Error404 from "./Error404";
+import Main from "./Main";
+import "../assets/css/styles.css";
 
 function App(){
+
   return (
-    <main>
-      <Header/>
-      <div class="container">
-        <Articles/>
-      </div>
-    </main>
+    <Switch>
+      <Route exact path="/" component={Main} />
+      <Route exact path="/blog" component={Articles} />
+      <Route component={Error404} />
+    </Switch>
   );
 }
 
