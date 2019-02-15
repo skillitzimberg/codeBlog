@@ -1,6 +1,8 @@
 # Brain Dump Blog
 This is a blog tracking my experiences while becoming a web developer. I'm currently planning a rebuild with Angular, making it both part of a portfolio and a web application that allows me to post journal entries through a live version.
 
+![](portfolio-diagram.png)
+
 ### Author
 Scott Bergler  
 
